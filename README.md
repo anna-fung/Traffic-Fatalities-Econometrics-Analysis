@@ -22,6 +22,7 @@ All models include **state fixed effects** and **robust standard errors clustere
 
 ## Folder Structure
 
+```text
 Traffic-Fatalities-Econometric-Analysis/
 ├─ stata/
 │   traffic_analysis_clean.do       # Stata do-file containing all regression code
@@ -29,6 +30,7 @@ Traffic-Fatalities-Econometric-Analysis/
 │   driving.dta                     # Dataset used for analysis
 ├─ report/
 │   AFung_TrafficFatalities_EconometricsEmpiricalProject.pdf  # Poster summarizing results
+```
 
 - **stata/**: Contains the Stata do-file to reproduce all regressions.  
 - **data/**: Contains the `driving.dta` dataset from the Wooldridge package.  
